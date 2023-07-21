@@ -1,3 +1,14 @@
+/*
+# Exercise 5
+
+Create the variables `isDoorClosed` and `isDogOutside`. 
+Set the `isDoorClosed` variable to true and `isDogOutside` variable to false. 
+Run the script. 
+Try to invert the variables values and see what happens.
+
+*/
+let isDoorClosed=false, isDogOutside=true;
+
 // Create the variables here
 
 // Don't modify this block. This is an if statement, you'll study it later in this course.
