@@ -5,7 +5,7 @@ Create a function called `sortPeopleByAge` that returns the people in ascending 
 */
 
 function sortPeopleByAge(arr) {
-  
+  return arr.sort((name, age) => name.age - age.age);
 }
 
 const people = [

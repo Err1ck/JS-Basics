@@ -9,7 +9,12 @@ Use the forEach and filter methods.
 */
 
 function uncompletedNotes(notes) {
-  
+  let ncomp = []; 
+  notes.forEach((note) => { 
+    let False = note.todos.filter(todo => todo.done === false); 
+    ncomp.push(...False)
+  });
+  return console.log(ncomp);
 };
 
 const notes = [
